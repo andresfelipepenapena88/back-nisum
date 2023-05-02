@@ -1,0 +1,7 @@
+package co.com.nisum.user.userRegistry.utils.exceptions;
+
+public class BusinessException extends Exception {
+    public BusinessException(String message) {
+        super(message);
+    }
+}
